@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# Env / secrets
+.env
+*.key
+
+# Data & models (never commit big files)
+*.bin
+*.safetensors
+*.pt
+*.onnx
+*.parquet
+*.arrow
+data/
+models/
+outputs/*.csv
+outputs/*.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
