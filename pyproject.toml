@@ -9,3 +9,39 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "torch>=2.13.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.22",
+]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Ruff — the Python equivalent of ESLint + Prettier in one tool.
+#   ruff check .        →  lint  (like eslint)
+#   ruff check . --fix  →  lint + autofix
+#   ruff format .       →  format (like prettier)
+# Docs: https://docs.astral.sh/ruff/
+# ─────────────────────────────────────────────────────────────────────────────
+[tool.ruff]
+target-version = "py312"   # match requires-python; enables 3.12-aware fixes
+line-length = 88           # Ruff/Black default
+
+[tool.ruff.lint]
+# Rule families to enable. Each letter-prefix is a plugin's worth of checks.
+select = [
+    "E",   # pycodestyle errors (PEP 8)
+    "W",   # pycodestyle warnings (trailing whitespace, etc.)
+    "F",   # pyflakes (unused imports/vars, undefined names)
+    "I",   # isort (import ordering — replaces a separate isort step)
+    "UP",  # pyupgrade (modernize syntax for the target version)
+    "B",   # flake8-bugbear (likely bugs & footguns)
+    "SIM", # flake8-simplify (simpler equivalents)
+    "C4",  # flake8-comprehensions (better comprehensions)
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"          # prefer "double" quotes (like Prettier/Black)
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

@@ -32,9 +32,11 @@ multi-turn chat you append the assistant reply into the `messages` list and rese
 *whole growing history* each call: `[system, user, assistant, user, assistant, ...]`.
 "The conversation is a list you keep resending" — the basis of chat memory / agent loops.
 
-## What to improve
-- The key-not-set guard exits **silently** (`sys.exit(1)` with no message). Should print
-  a clear reason to `stderr` first so a user knows *why* it bailed.
+## Robustness done right
+- The key-not-set guard prints a clear reason to `stderr` (`"OPENAI_API_KEY not set —
+  add it to .env"`) and then `sys.exit(1)` — no raw traceback, and the user knows *why*.
+- `.env.example` documents the required var (placeholder value) so a teammate knows what
+  to set without ever seeing my real key.
 
 ## Definition of done (protocol check)
 - [x] Wrote first_api_call.py from a blank file, no copying
