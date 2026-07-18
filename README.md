@@ -57,6 +57,7 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 | # | Lesson | Status | Notes |
 |---|--------|--------|-------|
 | 01 | linear-algebra-intuition | ✅ | Vector/Matrix/projection/Gram-Schmidt from scratch, self-tested |
+| 02 | vectors-matrices-operations | ✅ | element-wise ops, determinant, inverse, dense layer — from scratch |
 
 *(Remaining Phase 1 lessons added as I reach them.)*
 
