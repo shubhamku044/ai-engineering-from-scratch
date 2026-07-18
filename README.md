@@ -53,7 +53,12 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 | 11 | linux-for-ai | ✅ | confirmed: OOM killer / dmesg diagnosis |
 | 12 | debugging-and-profiling | ✅ | confirmed: profiler vs time.time(), cProfile |
 
-*(Later phases added to this tracker as I reach them.)*
+### Phase 01 — Math Foundations
+| # | Lesson | Status | Notes |
+|---|--------|--------|-------|
+| 01 | linear-algebra-intuition | ✅ | Vector/Matrix/projection/Gram-Schmidt from scratch, self-tested |
+
+*(Remaining Phase 1 lessons added as I reach them.)*
 
 ---
 
