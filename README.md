@@ -41,17 +41,17 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 | # | Lesson | Status | Notes |
 |---|--------|--------|-------|
 | 01 | dev-environment | ✅ | MPS-aware verify.py; rebuilt from blank |
-| 02 | git-and-collaboration | ⬜ | |
-| 03 | gpu-setup-and-cloud | ⬜ | (adapt: MPS + Colab, no CUDA) |
-| 04 | apis-and-keys | ⬜ | |
-| 05 | jupyter-notebooks | ⬜ | |
-| 06 | python-environments | ⬜ | |
-| 07 | docker-for-ai | ⬜ | |
-| 08 | editor-setup | ⬜ | |
-| 09 | data-management | ⬜ | (already studied — will rebuild) |
-| 10 | terminal-and-shell | ⬜ | |
-| 11 | linux-for-ai | ⬜ | |
-| 12 | debugging-and-profiling | ⬜ | |
+| 02 | git-and-collaboration | ✅ | proven live: committed + pushed this session |
+| 03 | gpu-setup-and-cloud | ✅ | MPS detection covered by verify.py; benchmark as extension |
+| 04 | apis-and-keys | ✅ | first OpenAI call: SDK + raw HTTP, tokens, key guard |
+| 05 | jupyter-notebooks | ✅ | confirmed: restart-and-run-all habit, hidden-state trap |
+| 06 | python-environments | ✅ | proven live: uv venv + pyproject + lockfile |
+| 07 | docker-for-ai | ✅ | confirmed: image = full OS env, not just deps |
+| 08 | editor-setup | ✅ | personal choice |
+| 09 | data-management | ✅ | confirmed: DVC/git-LFS/S3 for big data, not git |
+| 10 | terminal-and-shell | ✅ | proven live: zsh throughout |
+| 11 | linux-for-ai | ✅ | confirmed: OOM killer / dmesg diagnosis |
+| 12 | debugging-and-profiling | ✅ | confirmed: profiler vs time.time(), cProfile |
 
 *(Later phases added to this tracker as I reach them.)*
 

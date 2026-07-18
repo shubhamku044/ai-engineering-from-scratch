@@ -7,7 +7,7 @@ The rule that makes this repo worth more than the original: **I generate, I don'
 For each lesson my mentor assigns:
 
 1. **Read the concept, not the code.** Read the lesson's `docs/en.md`. Do **not** open the reference `code/` yet.
-2. **Rebuild from blank.** Open an empty file in *this* repo and write the code myself. Get stuck — that's the point.
+2. **Rebuild from blank.** My mentor creates the empty target file (just a comment header stating the goal). I write the code myself from there. Get stuck — that's the point.
 3. **Peek only when blocked.** Look at the reference just long enough to unblock the one thing, then close it and type it myself. Never copy-paste.
 4. **Diff against the reference.** Compare mine to theirs. Every difference is a hole in my understanding — investigate the *why*.
 5. **Break it & extend it.** Change something, predict the result before running. Do the lesson's exercises.
@@ -17,6 +17,11 @@ For each lesson my mentor assigns:
 ## The one line that can't move
 
 **I generate all the code myself, and I explain every concept out loud myself.** The mentor may write up `notes.md`, run commands, and commit — but if the mentor ever writes an explanation for something I never explained, we've slid back into copy-paste with the mentor as the source. Notes are a *record* of my understanding, never a *substitute* for it.
+
+## Commits
+
+- **One commit per lesson** — the history is the proof of work.
+- **No AI co-author trailer.** Commits do **not** include a `Co-Authored-By: Claude` line. This is my work; the commits say so.
 
 ## Definition of "done" for a lesson
 
