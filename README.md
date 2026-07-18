@@ -40,7 +40,7 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 ### Phase 00 — Setup & Tooling
 | # | Lesson | Status | Notes |
 |---|--------|--------|-------|
-| 01 | dev-environment | 🟡 | |
+| 01 | dev-environment | ✅ | MPS-aware verify.py; rebuilt from blank |
 | 02 | git-and-collaboration | ⬜ | |
 | 03 | gpu-setup-and-cloud | ⬜ | (adapt: MPS + Colab, no CUDA) |
 | 04 | apis-and-keys | ⬜ | |
@@ -61,8 +61,8 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 
 ```
 phases/<phase>/<lesson>/
-  ├── <my code>.py       # written from scratch
-  └── notes.md           # the gotchas, the "why", what broke — in my own words
+  ├── <my code>.py       # written from scratch (always mine)
+  └── notes.md           # mentor writes it up from what I explained out loud; I revise later
 ```
 
 One commit per lesson. The commit history is the proof of work.

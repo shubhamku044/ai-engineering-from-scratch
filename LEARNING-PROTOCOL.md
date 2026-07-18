@@ -11,7 +11,12 @@ For each lesson my mentor assigns:
 3. **Peek only when blocked.** Look at the reference just long enough to unblock the one thing, then close it and type it myself. Never copy-paste.
 4. **Diff against the reference.** Compare mine to theirs. Every difference is a hole in my understanding — investigate the *why*.
 5. **Break it & extend it.** Change something, predict the result before running. Do the lesson's exercises.
-6. **Understanding check.** Answer my mentor's 6 questions or run the quiz. If I can't explain a line, I'm not done.
+6. **Understanding check.** Answer my mentor's questions or run the quiz. If I can't explain a line, I'm not done.
+7. **Notes get written up.** My mentor drafts `notes.md` — but *only* from the explanations I gave out loud in the session. It's a transcript of my own understanding, not new content. I read and revise later.
+
+## The one line that can't move
+
+**I generate all the code myself, and I explain every concept out loud myself.** The mentor may write up `notes.md`, run commands, and commit — but if the mentor ever writes an explanation for something I never explained, we've slid back into copy-paste with the mentor as the source. Notes are a *record* of my understanding, never a *substitute* for it.
 
 ## Definition of "done" for a lesson
 
