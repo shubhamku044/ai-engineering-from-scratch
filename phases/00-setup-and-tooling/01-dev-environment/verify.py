@@ -12,8 +12,8 @@ from __future__ import annotations
 import shutil
 import subprocess
 import sys
+from collections.abc import Callable
 from functools import partial
-from typing import Callable
 
 CheckResult = tuple[bool, str]
 
