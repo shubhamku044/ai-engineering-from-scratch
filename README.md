@@ -59,7 +59,7 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 | 01 | linear-algebra-intuition | ✅ | Vector/Matrix/projection/Gram-Schmidt from scratch, self-tested |
 | 02 | vectors-matrices-operations | ✅ | element-wise ops, determinant, inverse, dense layer — from scratch |
 | 03 | matrix-transformations | ✅ | transforms, composition, eigenvalues/vectors — extends OperableMatrix (scaffold mode) |
-| 04 | calculus-for-ml | ⬜ | spine: gradients (gradient descent) |
+| 04 | calculus-for-ml | ✅ | derivatives, gradient, gradient descent, trained linear regression from scratch |
 | 05 | chain-rule-and-autodiff | ⬜ | spine: this IS backprop — do it properly |
 | 06 | probability-and-distributions | ⬜ | spine: losses, likelihood, softmax |
 | 08 | optimization | ⬜ | spine: SGD / momentum / Adam |
