@@ -61,11 +61,10 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 | 03 | matrix-transformations | ✅ | transforms, composition, eigenvalues/vectors — extends OperableMatrix (scaffold mode) |
 | 04 | calculus-for-ml | ✅ | derivatives, gradient, gradient descent, trained linear regression from scratch |
 | 05 | chain-rule-and-autodiff | ✅ | micrograd-style autograd engine + backprop, gradient-checked |
-| 06 | probability-and-distributions | ⬜ | spine: losses, likelihood, softmax |
-| 08 | optimization | ⬜ | spine: SGD / momentum / Adam |
+| 06 | probability-and-distributions | ✅ | softmax (stable), cross-entropy, distributions — from scratch |
+| 08 | optimization | ✅ | SGD, momentum, Adam from scratch (Adam solves Rosenbrock) |
 
-**Lean-spine plan:** doing only the load-bearing math (03→04→05→06→08) then jumping to
-Phase 2. Deferred until a project needs them: 07, 09–22 (info theory, SVD, tensors,
+**Lean-spine plan:** ✅ COMPLETE (03→04→05→06→08). Jumping to Phase 2. Deferred until a project needs them: 07, 09–22 (info theory, SVD, tensors,
 numerical stability, sampling, convex opt, complex/Fourier, graphs, stochastic processes).
 
 ---
