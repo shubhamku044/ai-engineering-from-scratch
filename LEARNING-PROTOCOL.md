@@ -14,6 +14,21 @@ For each lesson my mentor assigns:
 6. **Understanding check.** Answer my mentor's questions or run the quiz. If I can't explain a line, I'm not done.
 7. **Notes get written up.** My mentor drafts `notes.md` — but *only* from the explanations I gave out loud in the session. It's a transcript of my own understanding, not new content. I read and revise later.
 
+## Scaffold mode (optional, for harder lessons)
+
+When a lesson is dense (e.g. eigenvalues), I can ask my mentor to **scaffold** instead of
+handing me a blank file. Scaffolding means the mentor may:
+
+- copy my own earlier `Vector`/`Matrix` (or other prior work) into the lesson folder,
+- write the **function/class blueprints** — signatures, docstrings, and step-by-step hint
+  comments — with every body left as `raise NotImplementedError`,
+- write the **test cases in `__main__`** as the spec I have to satisfy.
+
+**What stays mine:** every `NotImplementedError` body — the actual logic — and the out-loud
+explanation. The mentor writes the *contract and the hints*; I write the *implementation*.
+If I ever fill a body by copying, or can't explain what I wrote, scaffold mode has failed
+and I redo it from the hints. This is a ramp, not a shortcut.
+
 ## The one line that can't move
 
 **I generate all the code myself, and I explain every concept out loud myself.** The mentor may write up `notes.md`, run commands, and commit — but if the mentor ever writes an explanation for something I never explained, we've slid back into copy-paste with the mentor as the source. Notes are a *record* of my understanding, never a *substitute* for it.

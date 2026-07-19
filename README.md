@@ -58,8 +58,15 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done (rebuilt from scratch + 
 |---|--------|--------|-------|
 | 01 | linear-algebra-intuition | ✅ | Vector/Matrix/projection/Gram-Schmidt from scratch, self-tested |
 | 02 | vectors-matrices-operations | ✅ | element-wise ops, determinant, inverse, dense layer — from scratch |
+| 03 | matrix-transformations | ✅ | transforms, composition, eigenvalues/vectors — extends OperableMatrix (scaffold mode) |
+| 04 | calculus-for-ml | ⬜ | spine: gradients (gradient descent) |
+| 05 | chain-rule-and-autodiff | ⬜ | spine: this IS backprop — do it properly |
+| 06 | probability-and-distributions | ⬜ | spine: losses, likelihood, softmax |
+| 08 | optimization | ⬜ | spine: SGD / momentum / Adam |
 
-*(Remaining Phase 1 lessons added as I reach them.)*
+**Lean-spine plan:** doing only the load-bearing math (03→04→05→06→08) then jumping to
+Phase 2. Deferred until a project needs them: 07, 09–22 (info theory, SVD, tensors,
+numerical stability, sampling, convex opt, complex/Fourier, graphs, stochastic processes).
 
 ---
 
